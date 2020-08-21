@@ -1,0 +1,332 @@
+(ExpressProject "DAQ_controller"
+  (ProjectVersion "19981106")
+  (SoftwareVersion "17.4-2019 S009 (3878102)  [8/4/2020]-[08/20/20]")
+  (ProjectType "PCB")
+  (Folder "Design Resources"
+    (Folder "Library")
+    (NoModify)
+    (File ".\daq_controller.dsn"
+      (Type "Schematic Design"))
+    (BuildFileAddedOrDeleted "x")
+    (CompileFileAddedOrDeleted "x")
+    (DOCKED "TRUE")
+    (DOCKING_POSITION "59420")
+    (Netlist_TAB "0")
+    ("Create Allegro Netlist" "TRUE")
+    ("Allegro Netlist Directory" "allegro")
+    ("View Allegro Netlist Files" "FALSE")
+    ("Allegro Netlist Create DCF File" "FALSE")
+    ("Update Allegro Board" "TRUE")
+    ("Allegro Netlist Output Board File" ".\allegro\daq_controller.brd")
+    ("Allegro Netlist Remove Etch" "FALSE")
+    ("Allegro Netlist Place Changed Component" "ALWAYS_REPLACE")
+    ("Allegro Netlist Open Board in Allegro" "ORCAD")
+    ("Allegro Setup Backup Versions" "3")
+    ("Allegro Setup Ignore Constraints" "FALSE")
+    ("Allegro Setup Part Type Length" "31")
+    ("Allegro Netlist Combine Property String" "PCB Footprint")
+    ("Allegro Netlist Ignore Fixed Property" "FALSE")
+    ("Allegro Netlist User Defined Property" "FALSE")
+    ("Allegro Netlist Input Board File" "allegro\DAQ_CONTROLLER.brd")
+    (ANNOTATE_Scope "0")
+    (ANNOTATE_Mode "1")
+    (ANNOTATE_Action "1")
+    (Annotate_Page_Order "0")
+    (ANNOTATE_Reset_References_to_1 "FALSE")
+    (ANNOTATE_No_Page_Number_Change "FALSE")
+    (ANNOTATE_Property_Combine "{Value}{Source Package}{POWER_GROUP}")
+    (ANNOTATE_IncludeNonPrimitive "FALSE")
+    (ANNOTATE_PreserveDesignator "FALSE")
+    (ANNOTATE_PreserveUserEdits "FALSE")
+    (ANNOTATE_Refdes_Control_Required "FALSE")
+    (Update_Instace_for_External_Design "FALSE")
+    (Annotate_type "Default")
+    (width_pages "100")
+    (width_start "80")
+    (width_End "80")
+    (DRC_Scope "0")
+    (DRC_Action "0")
+    (DRC_Create_Warnings "FALSE")
+    (DRC_View_Output "FALSE")
+    (DRC_Preserved_Waived "FALSE")
+    (DRC_Run_Electrical_Rules "TRUE")
+    (DRC_Run_Physical_Rules "FALSE")
+    (DRC_Report_File
+       "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DRC")
+    (DRC_Check_Ports "FALSE")
+    (DRC_Check_Off-Page_Connectors "TRUE")
+    (DRC_Report_Ports_and_Off-page_Connectors "FALSE")
+    (DRC_SDT_Compatibility "FALSE")
+    (DRC_Report_Off-grid_Objects "FALSE")
+    (DRC_Check_Unconnected_Nets "TRUE")
+    (DRC_Check_for_Misleading_TAP "FALSE")
+    (DRC_Report_Netnames "FALSE")
+    (DRC_Check_Single_Node_Nets "TRUE")
+    (DRC_Run_Electrical_Custom_DRC "FALSE")
+    (DRC_Check_No_Driving_Source "TRUE")
+    (DRC_Check_Duplicate_NetNames "TRUE")
+    (DRC_Check_Floating_Pins "TRUE")
+    (DRC_Check_Physical_Power_Pins_Visibility "TRUE")
+    (DRC_Check_PCB_Footprint_Property "TRUE")
+    (DRC_Check_Normal_Convert_View_Sync "TRUE")
+    (DRC_Check_Incorrect_PinGroup_Assignment "TRUE")
+    (DRC_Check_High_Speed_Props_Syntax "TRUE")
+    (DRC_Check_Missing_Pin_Numbers "TRUE")
+    (DRC_Check_Device_With_No_Pins "TRUE")
+    (DRC_Check_Power_Ground_Short "TRUE")
+    (DRC_Identical_References "TRUE")
+    (DRC_Type_Mismatch "TRUE")
+    (DRC_Visible_Power_pins "TRUE")
+    (DRC_Report_Unused_Part_Packages "TRUE")
+    (DRC_Check_Name_Prop_For_HierBlocks "TRUE")
+    (DRC_Run_Physical_Custom_DRC "FALSE")
+    (BOM_Scope "0")
+    (BOM_Mode "0")
+    (BOM_Report_File
+       "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER_BOM.txt")
+    (BOM_Merge_Include "FALSE")
+    (BOM_Property_Combine_7.0
+       "{Item}\t{Quantity}\t{Reference}\t{PCB Footprint}\t{Value}")
+    (BOM_Header "Item\tQuantity\tReference\tFootprint\tValue")
+    (BOM_Include_File
+       "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.INC")
+    (BOM_Include_File_Combine_7.0 "{Item}\t{Quantity}\t{Reference}\t{Value}")
+    (BOM_One_Part_Per_Line "FALSE")
+    (Open_BOM_in_Excel "TRUE")
+    (BOM_View_Output "FALSE")
+    (Display_Online_DRC_Results "FALSE")
+    (Board_sim_option "VHDL_flow"))
+  (Folder "Layout"
+    (File ".\allegro\daq_controller.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\daq_controller.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "1"))
+    (File ".\allegro\daq_controller_bak.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\daq_controller_bak.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0"))
+    (File ".\allegro\front_panel.brd"
+      (Type "Board File")
+      (OutputBoard ".\allegro\front_panel.brd")
+      (NetListPath ".\allegro")
+      (ActiveBoard "0")))
+  (Folder "Outputs"
+    (File ".\allegro\pstxnet.dat"
+      (Type "Report")
+      (DisplayName "pstxnet.dat"))
+    (File ".\allegro\pstxprt.dat"
+      (Type "Report")
+      (DisplayName "pstxprt.dat"))
+    (File ".\allegro\pstchip.dat"
+      (Type "Report")
+      (DisplayName "pstchip.dat"))
+    (File ".\daq_controller.drc"
+      (Type "Report"))
+    (File ".\daq_controller.bom"
+      (Type "Report"))
+    (File ".\daq_controller_bom.csv"
+      (Type "Report"))
+    (File ".\daq_controller_bom.txt"
+      (Type "Report")))
+  (Folder "Referenced Projects")
+  (MPSSessionName "Chris")
+  (PartMRUSelector
+    (TEST_POINT_0P9MM
+      (FullPartName "TEST_POINT_0P9MM.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (TEST_POINT_0p9MM
+      (FullPartName "TEST_POINT_0p9MM.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (SD_DM1AA
+      (FullPartName "SD_DM1AA.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\CONN.OLB")
+      (DeviceIndex "0"))
+    (USBLC6-2
+      (FullPartName "USBLC6-2.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\DISCRETE2.OLB")
+      (DeviceIndex "0"))
+    (OSC_3P2x2P5_50MHZ
+      (FullPartName "OSC_3P2x2P5_50MHZ.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (MX25L3233FM1
+      (FullPartName "MX25L3233FM1.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-R
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (OFFPAGELEFT-L
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (VCC_ARROW
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (FT232H
+      (FullPartName "FT232H.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (USB_B
+      (FullPartName "USB_B.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\CONN.OLB")
+      (DeviceIndex "0"))
+    (GND
+      (LibraryName "C:\CADENCE\SPB_17.2\TOOLS\CAPTURE\LIBRARY\CAPSYM.OLB")
+      (DeviceIndex "0"))
+    (STM32H750_BGA240
+      (FullPartName "STM32H750_BGA240E.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MICRO.OLB")
+      (DeviceIndex "4"))
+    (DAQ_EDGE_98
+      (FullPartName "DAQ_EDGE_98.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\CONN.OLB")
+      (DeviceIndex "0"))
+    (M24C02-FMN
+      (FullPartName "M24C02-FMN.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0"))
+    (DP83848
+      (FullPartName "DP83848B.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "1"))
+    (XILINX_JTAG
+      (FullPartName "XILINX_JTAG.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\CONN.OLB")
+      (DeviceIndex "0"))
+    ("CAP NP"
+      (FullPartName "CAP NP.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\DISCRETE2.OLB")
+      (DeviceIndex "0"))
+    (XC7S6_FTGB196
+      (FullPartName "XC7S6_FTGB196A.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\FPGA.OLB")
+      (DeviceIndex "0"))
+    (AT45DB161E
+      (FullPartName "AT45DB161E.Normal")
+      (LibraryName
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\LIBRARIES\MISC.OLB")
+      (DeviceIndex "0")))
+  (LastUsedLibraryBrowseDirectory
+     "C:\Users\Chris\Dropbox\electronic_projects\OrCAD\libraries")
+  (GlobalState
+    (FileView
+      (Path "Design Resources")
+      (Path "Design Resources"
+         "c:\users\chris\dropbox\electronic_projects\orcad\projects\daq_controller\daq_controller.dsn")
+      (Path "Design Resources"
+         "c:\users\chris\dropbox\electronic_projects\orcad\projects\daq_controller\daq_controller.dsn"
+         "SCHEMATIC1")
+      (Select "Design Resources"
+         "c:\users\chris\dropbox\electronic_projects\orcad\projects\daq_controller\daq_controller.dsn"))
+    (HierarchyView)
+    (Doc
+      (Type "COrCapturePMDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -1 -1 0 200 0 1281"))
+      (Tab 0))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "FPGA"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Micro"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power_Dist"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Ethernet"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 -8 -31 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "USB"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Power_Reg"))
+    (Doc
+      (Type "COrSchematicDoc")
+      (Frame
+        (Placement "44 0 1 -1 -1 5 24 5 2314 24 1299")
+        (Scroll "-296 0")
+        (Zoom "153")
+        (Occurrence "/"))
+      (Path
+         "C:\USERS\CHRIS\DROPBOX\ELECTRONIC_PROJECTS\ORCAD\PROJECTS\DAQ_CONTROLLER\DAQ_CONTROLLER.DSN")
+      (Schematic "SCHEMATIC1")
+      (Page "Card_connector")))
+  (ISPCBBASICLICENSE "false")
+  (Folder "PSpice Resources"
+    (Folder "Simulation Profiles")
+    (Folder "Model Libraries"
+      (Sort User))
+    (Folder "Stimulus Files"
+      (Sort User))
+    (Folder "Include Files"
+      (Sort User)))
+  (Folder "Logs"))

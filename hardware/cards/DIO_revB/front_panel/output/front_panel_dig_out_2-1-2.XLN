@@ -1,0 +1,20 @@
+M48
+INCH
+T01C.14173
+T02C.14567
+;LEADER: 12 
+;HEADER: 
+;CODE  : ASCII 
+;FILE  : front_panel_dig_out_2-1-2.drl for  ... layers TOP and BOTTOM
+;DESIGN: front_panel_dig_out_2.brd
+;T01 Holesize 1. = 141.730000 Tolerance = +0.000000/-0.000000 PLATED MILS Quantity = 2
+;T02 Holesize 2. = 145.670000 Tolerance = +0.000000/-0.000000 PLATED MILS Quantity = 2
+%
+G90
+T01
+X000000Y-016450
+X000000Y016550
+T02
+X000000Y-021670
+X000000Y021670
+M30
